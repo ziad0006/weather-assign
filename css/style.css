@@ -1,0 +1,130 @@
+body {
+  color: #bfc1c8;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  background: #1e202b;
+}
+
+.form-control::placeholder {
+  color: rgba(178, 180, 181, 0.515);
+}
+
+.navbar-nav .nav-link.active {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+
+.nav-link {
+  color: white;
+}
+
+nav ul li .nav-link {
+  color: #ffffff;
+  padding: 5px 25px !important;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  transition: 0.3s ease;
+  font-weight: 400;
+
+}
+
+nav ul li .nav-link:hover,
+nav ul li .active,
+.nav-link:focus {
+  border-color: #009ad8;
+  color: #009ad8 !important;
+}
+
+nav small {
+  color: #bfc1c8;
+  font-size: 10px;
+}
+
+header {
+  min-height: 350px;
+  background-image: url(../image/weather2.png);
+  background-size: cover;
+
+
+}
+
+#row-Data {
+  position: relative;
+  bottom: 60px;
+  background-color: #1e202b;
+  border-radius: 10px;
+  background-color: #262936;
+
+}
+
+.forecast-haeder {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.number {
+  font-size: 90px;
+}
+
+.icon small,
+span {
+  font-size: 13px;
+  color: #bfc1c8;
+}
+
+.subscribe-form {
+  position: relative;
+}
+
+#searchInput,
+#footerSearch {
+  width: 100%;
+  padding: 20px 50px 20px 20px;
+  background: #1e202b;
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
+
+#searchBtn,
+#footerBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  padding: 0 40px;
+  border: none;
+  background: #009ad8;
+  border-radius: 30px;
+  color: white;
+}
+
+footer {
+  background-color: #262936;
+}
+
+footer .social-links a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #1e202b;
+  color: #009ad8;
+  text-align: center;
+  line-height: 2;
+  transition: 0.3s ease;
+  font-size: 20px;
+
+}
+
+footer .social-links a:hover {
+  background-color: #009ad8;
+  color: white;
+}
+
+footer p {
+  color: #bfc1c8;
+  font-size: 14px;
+
+}
